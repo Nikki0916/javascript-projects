@@ -18,18 +18,18 @@ let preparedForLiftOff = "true";
 
 // add logic below to verify total number of astronauts for shuttle launch does not exceed 7
 if (astronautCount >= 7) {
-  console.log ("astronauts are ready")
+  console.log ("Astronauts are all present")
 
 }
 // add logic below to verify all astronauts are ready
 if ( astronautStatus = "ready") {
-console.log ("astronauts are ready")
+console.log ("Astronauts are ready")
 } else if (astronautCount <= 7) 
 console.log ("Too many astronauts") 
 
 // add logic below to verify the total mass does not exceed the maximum limit of 850000
 if (totalMassKg <= 850000) {
-  console.log ("weight is within limit")
+  console.log ("Weight is within limit")
  }
 // add logic below to verify the fuel temperature is within the appropriate range of -150 and -300
 if ( fuelTempCelsius >= minimumFuelTemp && fuelTempCelsius <= maximumFuelTemp ) {
@@ -44,4 +44,6 @@ if ( weatherStatus === "clear") {
     console.log("Weather is clear");
   }
 // Verify shuttle launch can proceed based on above conditions
-if 
+if (preparedForLiftOff === "true"){
+ console.log("Cleared to launch")
+}
