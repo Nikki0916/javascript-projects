@@ -26,7 +26,7 @@ meals.push(newMeal)
 
 
 function askForNumber() {
-  numMeals = input.question("How many meals would you like to make?");
+  let numMeals = input.question("How many meals would you like to make?");
   while (numMeals < 1 || numMeals > 6 || isNaN(numMeals)) {
     numMeals = input.question('Please select number 1-6')
   }
@@ -43,7 +43,22 @@ function generatePassword(string1, string2) {
   let code = '';
 }
   /// Code your Bonus Mission Solution here ///
-
+  function generatePassword(str1, str2) {
+    let code = "";
+  
+    const maxLength = Math.max(str1.length, str2.length);
+  
+    for (let i = 0; i < maxLength; i++) {
+      if (i < str1.length) {
+        code += str1[i];
+      }
+      if (i < str2.length) {
+        code += str2[i];
+      }
+    }
+  
+    return code;
+  }
 
 function runProgram() {
   
@@ -66,10 +81,10 @@ function runProgram() {
     /// TEST PART C HERE ///
   /// UNCOMMENT the remaining commented lines and change the password1 and password2 strings to ensure your code is doing its job ///
 
-  // let password1 = '';
-  // let password2 = '';
-  // console.log("Time to run the password generator so we can update the menu tomorrow.")
-  // console.log(`The new password is: ${generatePassword(password1, password2)}`);
+  let password1 = 'Blake';
+  let password2 = 'Mystery';
+  console.log("Time to run the password generator so we can update the menu tomorrow.")
+  console.log(`The new password is: ${generatePassword(password1, password2)}`);
 }
 
 module.exports = {
