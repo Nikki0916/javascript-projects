@@ -78,7 +78,7 @@ function reversedArray(originalArray){
    console.log(reversedArray(arrayTest1));
    console.log(reversedArray(arrayTest2));
    console.log(reversedArray(arrayTest3));
-   
+
 
 // // Bonus Missions
 
