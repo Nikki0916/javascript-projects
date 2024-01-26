@@ -1,10 +1,19 @@
-let message = "Hello, World!";
+// let message = "Hello, World!";
 
-function printMessage() {
-   console.log(message);
+// function printMessage() {
+//    console.log(message);
+// }
+
+// printMessage();
+// message = "Goodbye";
+// printMessage();
+
+
+
+// Example that I was having trouble with 
+function repeater(str) {
+   let repeated = str + str;
+   // console.log(repeated);
 }
 
-printMessage();
-message = "Goodbye";
-printMessage();
-
+console.log(repeater('Bob'));
