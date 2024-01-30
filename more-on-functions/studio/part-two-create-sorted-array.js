@@ -24,6 +24,7 @@ console.log(findMin(nums2))
 console.log(findMin(nums3))
 
 
+
 /*Within the function:
 1) Define a new, empty array to hold the final sorted numbers.
 2) Use the findMinValue function to find the minimum value in the old array.
