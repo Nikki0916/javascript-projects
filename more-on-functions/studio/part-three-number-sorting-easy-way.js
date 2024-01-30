@@ -16,3 +16,13 @@ nums1.sort(function (b,a) {
     return a - b;
 })
 console.log(nums1)
+
+nums2.sort(function (b,a) {
+    return a - b;
+})
+console.log(nums2)
+
+nums3.sort(function (b,a) {
+    return a - b;
+})
+console.log(nums3)
