@@ -32,7 +32,7 @@ console.log(findMin(nums3))
 
 //Your function here...
 
-function sortNums(arr) {
+function sortNums(arr) { 
   let sortedArray = [];
   while (arr.length > 0) {
     let min = findMin(arr);
