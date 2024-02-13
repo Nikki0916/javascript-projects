@@ -12,4 +12,21 @@ b) Replace any strings with “ARRR!”
 c) Print the new array to confirm your work.
 */
 
+let practice = function(myArg) {
+    if (typeof myArg === "number") {
+        return myArg * 3;
+    } else if (typeof myArg === "string") {
+        return "ARRR!";
+    } else {
+        return myArg;
+    }
+}
+
 let arr = ['Elocution', 21, 'Clean teeth', 100];
+
+arr = arr.map((elem) => {
+    return practice(elem);
+
+});
+
+console.log(arr);
