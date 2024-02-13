@@ -17,7 +17,7 @@ if (crewStatus && computerStatus === 'green'){
 }
 
 if (launchReady) {
-   console.log(("10, 9, 8, 7, 6, 5, 4, 3, 2, 1..."));
+   console.log("10, 9, 8, 7, 6, 5, 4, 3, 2, 1...");
    console.log("Fed parrot...");
    console.log("Ignition...");
    console.log("Liftoff!");
