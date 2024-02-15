@@ -4,10 +4,11 @@ class Astronaut {
      this.name = name;
      this.age = age;
      this.mass = mass;
+     this.color = color;
    }
 }
 
-let fox = new Astronaut('Fox', 7, 12);
+let fox = new Astronaut('Fox', 7, 12, 'brown');
 
 console.log(fox);
 console.log(fox.age, fox.color);

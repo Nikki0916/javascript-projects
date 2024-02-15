@@ -15,8 +15,10 @@ class Tiger extends Panthera {
 	constructor() {
     super();
 		this.hasStripes = "true";
+		this.hasLongtail = "true";
 	}
 }
+
 
 let tigger = new Tiger();
 
