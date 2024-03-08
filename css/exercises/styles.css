@@ -1,6 +1,6 @@
 /* Start adding your styling below! */ 
 body {
-    background-color: rgb(146, 175, 230);
+    background-color: yellow;
 }
 
 p {
@@ -28,7 +28,7 @@ body {
    <p>I love making websites because all I have to do is reload the page to see the changes I have made!</p>
 </body>
 #cool-text {
-    color: blue;
+    color: green;
 }
 
 
@@ -37,5 +37,5 @@ body {
 
 </ol>
 #list-color {
-    color: blueviolet;
+    color: blue;
  }
